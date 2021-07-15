@@ -12,5 +12,5 @@ This is to compare the substring and Span behavior
 By using Substring method
 ![substring](assets/GetDateWithString_Substring.png)
 
-By using Substring method
+By using Span and Slice method
 ![span and splice](assets/GetDateWithString_Span.png)
