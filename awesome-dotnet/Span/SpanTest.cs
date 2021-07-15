@@ -13,6 +13,7 @@ namespace awesome_dotnet.Span
     {
         private static readonly string dateText = "15 07 2021";
 
+        #region Part of String
         [Benchmark]
         public (int day, int month, int year) GetDateWithString_Substring()
         {
@@ -37,6 +38,34 @@ namespace awesome_dotnet.Span
             var year = int.Parse(yearText);
             return (day, month, year);
         }
+        #endregion
+
+        #region Contains Capital Letter
+        public static bool ContainsCapitalLetter(string text)
+        {
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (char.IsUpper(text[i]))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public static bool ContainsCapitalLetter(ReadOnlySpan<char> text)
+        {
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (char.IsUpper(text[i]))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+        #endregion
+
 
         public static void RunTest()
         {
