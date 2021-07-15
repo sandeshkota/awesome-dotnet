@@ -8,6 +8,9 @@
   [![Sonar](https://github.com/sandeshkota/awesome-dotnet/actions/workflows/sonar.yml/badge.svg)](https://github.com/sandeshkota/awesome-dotnet/actions/workflows/sonar.yml)
 
 </h1>
+
+## Concepts
+- [span](https://github.com/sandeshkota/awesome-dotnet/tree/main/awesome-dotnet/Span)
   
 ## Give a Star! :star:
 If you like or are using this project to learn or start your solution, please give it a star. Thanks!
