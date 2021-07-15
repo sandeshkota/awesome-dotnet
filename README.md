@@ -3,6 +3,10 @@
   <br />
     Learning Dotnet 
   <br />
+  
+  [![.NET](https://github.com/sandeshkota/awesome-dotnet/actions/workflows/dotnet.yml/badge.svg)](https://github.com/sandeshkota/awesome-dotnet/actions/workflows/dotnet.yml)
+  [![Sonar](https://github.com/sandeshkota/awesome-dotnet/actions/workflows/sonar.yml/badge.svg)](https://github.com/sandeshkota/awesome-dotnet/actions/workflows/sonar.yml)
+
 </h1>
   
 ## Give a Star! :star:
