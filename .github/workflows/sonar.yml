@@ -6,12 +6,14 @@ on:
     paths-ignore:
       - '**.md'
       - 'assets/**'
+      - '**/assets/**'
       - '.github/**'
   pull_request:
     types: [opened, synchronize, reopened]
     paths-ignore:
       - '**.md'
       - 'assets/**'
+      - '**/assets/**'
       - '.github/**'
     
 jobs:
