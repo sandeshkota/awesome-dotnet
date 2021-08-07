@@ -1,4 +1,5 @@
-﻿using awesome_dotnet.Span;
+﻿using awesome_dotnet.NullCheck;
+using awesome_dotnet.Span;
 using System;
 
 namespace awesome_dotnet
@@ -7,6 +8,8 @@ namespace awesome_dotnet
     {
         static void Main(string[] args)
         {
+
+            NullCheckRunner.Run();
             // SpanTest.RunTest();
 
             Console.ReadLine();
